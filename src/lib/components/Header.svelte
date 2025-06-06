@@ -30,10 +30,10 @@
 				  Capítulo 03
 				</a>
 				<ul class="dropdown-menu">
-				  <li><a class="dropdown-item" href="/03/posts/">posts</a></li>
 				  <li><a class="dropdown-item" href="/03/teste">teste</a></li>
 				  <li><a class="dropdown-item" href="/03/pokemons">pokemons</a></li>
-				  <li><a class="dropdown-item" href="/03/external/users">users</a></li>
+				  <li><a class="dropdown-item" href="/03/external/users">JSONPlaceholder - users</a></li>
+				  <li><a class="dropdown-item" href="/03/dummy/users">Dummy - Users</a></li>
 				</ul>
 			  </li>
 

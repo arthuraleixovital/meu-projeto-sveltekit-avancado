@@ -1,6 +1,5 @@
 <script>
     let { data } = $props();
-    console.log(data);
 </script>
 
 <div class="container my-5">
