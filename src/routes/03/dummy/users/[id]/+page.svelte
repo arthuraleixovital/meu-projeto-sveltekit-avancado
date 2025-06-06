@@ -21,6 +21,7 @@ Endereço: <b>{data.user.address.address}, {data.user.address.city} - {data.user
 <h3>Posts:</h3>
 {#each data.posts.posts as post}
     <a href="/03/dummy/posts/{post.id}">{post.title}</a>
+    <br/>
 {/each}
 
 <br/>
