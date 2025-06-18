@@ -7,6 +7,10 @@
     <button type="submit">Enviar</button>
 </form>
 
-{#if form?.mensagem}
-    <p>Sua mensagem foi: {form.mensagem}</p>
+{#if form?.mensagem && form?.status == '200'}
+    <p style="color: green;">Sua mensagem foi: {form.mensagem}</p>
+    Status: {form.status}
+{:else}
+    <p style="color: red;">{form.mensagem}</p>
+    Status: {form.status}
 {/if}
